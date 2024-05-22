@@ -1,0 +1,361 @@
+intent,sub intent,data,slots
+agricultural_machinery,cultivator,is cultivator used for harvesting crops,O B-machinery_type B-machinery_agricultural_process O B-machinery_agricultural_process O
+agricultural_machinery,plough,is plough used during harvesting or seeding,O B-machinery_type B-machinery_agricultural_process O B-machinery_agricultural_process O B-machinery_agricultural_process
+agricultural_machinery,harrow,for how many years is harrow usable,O O O B-machinery_shelf_life O B-machinery_type O
+agricultural_machinery,tractors,how is it known that a tractor is in good condition,O O O O O O B-machinery_type O O B-machinery_general_info B-machinery_shelf_life
+agricultural_machinery,seed_drill,how does seed drill work,O O B-machinery_agricultural_process O B-machinery_general_info
+agricultural_machinery,general,what is repair cost for agricultural machines,O O B-machinery_maintenance_cost B-machinery_price O O B-machinery_type
+agricultural_machinery,plough,what is the repair cost of plough,O O O B-machinery_maintenance_cost B-machinery_price O B-machinery_type
+agricultural_machinery,produce_sorter,is produce sorter used for harvesting,O O O B-machinery_agricultural_process O B-machinery_agricultural_process
+agricultural_machinery,cultivator,what is the advantage of using cultivator,O O O B-machinery_general_info O O B-machinery_type
+agricultural_machinery,cultivator,which type of cultivator is best,O B-machinery_subtype O B-machinery_type O B-machinery_general_info
+agricultural_machinery,sprayers,how much money is required for sprayer maintenance,O O B-machinery_price O O O B-machinery_type B-machinery_maintenance_cost
+agricultural_machinery,harrow,can harrow be used for soil preparation,O B-machinery_type O B-machinery_agricultural_process O B-machinery_agricultural_process O
+agricultural_machinery,tractors,how can i tell if a tractor is in good condition,O O O O O O B-machinery_type O O B-machinery_general_info B-machinery_shelf_life
+agricultural_machinery,sprayers,how to spray the emulsion,O O O O O
+agricultural_machinery,manure_spreader,how to repair manure spreader,O O B-machinery_maintenance_cost O O
+agricultural_machinery,roller,what is the use of roller,O O O B-machinery_agricultural_process O B-machinery_type
+agricultural_machinery,planters,how does a planter works,O O O B-machinery_type B-machinery_general_info
+agricultural_machinery,produce_sorter,how produce spreader is different from other tools,O O O O B-machinery_subtype O O B-machinery_type
+agricultural_machinery,produce_sorter,what is the life span of produce sorter,O O O B-machinery_shelf_life B-machinery_shelf_life O O O
+agricultural_machinery,planters,what is the advantage of using planter for sowing seeds,O O O B-machinery_general_info O O B-machinery_type O B-machinery_agricultural_process B-machinery_agricultural_process
+agricultural_machinery,chisel_plow,can chisel plow be used for all soil types,O O O O B-machinery_agricultural_process O O B-machinery_agricultural_process B-machinery_subtype
+agricultural_machinery,manure_spreader,what is the best brand of manure spreader,O O O B-machinery_general_info B-machinery_general_info O O O
+agricultural_machinery,rotator,is rotator cheap,O B-machinery_type B-machinery_price
+agricultural_machinery,seed_drill,is seed drill beneficial for sowing seeds,O B-machinery_agricultural_process O O O B-machinery_agricultural_process B-machinery_agricultural_process
+agricultural_machinery,manure_spreader,is manure spreader used in sowing,O O O B-machinery_agricultural_process O B-machinery_agricultural_process
+agricultural_machinery,cultivator,what is the life span of a cultivator,O O O B-machinery_shelf_life B-machinery_shelf_life O O B-machinery_type
+agricultural_machinery,subsoiler,is a subsoiler safe,O O B-machinery_type B-machinery_general_info
+agricultural_machinery,plough,does using plough cause danger,O O B-machinery_type B-machinery_agricultural_process B-machinery_general_info
+agricultural_machinery,rotator,what are the functions of rotator,O O O B-machinery_agricultural_process O B-machinery_type
+agricultural_machinery,sprayers,is it important to purchase a sprayer,O O B-machinery_general_info O B-machinery_price O B-machinery_type
+agricultural_machinery,rotator,what is the maintenancecostof rotator,O O O B-machinery_price B-machinery_type
+agricultural_machinery,chisel_plow,how does the chisel plow work,O O O O O B-machinery_general_info
+agricultural_machinery,combine,what does it mean to combine in farming,O O O O O O O O
+agricultural_machinery,liquid_manure,does using liquid manure require maintenance,O O O O O B-machinery_maintenance_cost
+agricultural_machinery,rotator,can rotator be used safely,O B-machinery_type O B-machinery_agricultural_process B-machinery_general_info
+agricultural_machinery,roller,which brand is the best for roller,O B-machinery_general_info O O B-machinery_general_info O B-machinery_type
+agricultural_machinery,chisel_plow,brand recommendation for chisel plow,B-machinery_general_info O O O O
+agricultural_machinery,roller,in what stage of farming is roller used,O O O O O O B-machinery_type B-machinery_agricultural_process
+agricultural_machinery,seed_drill,what are the functions of seed drill,O O O B-machinery_agricultural_process O B-machinery_agricultural_process O
+agricultural_machinery,chisel_plow,what are the types of chisel plow,O O O B-machinery_subtype O O O
+agricultural_machinery,sprayers,how often should the sprayers be used for a crop,O B-machinery_shelf_life O O B-machinery_type O B-machinery_agricultural_process O O O
+agricultural_machinery,combine,is using a combine dangerous,O O O O B-machinery_general_info
+agricultural_machinery,combine,what are the functions of combine,O O O B-machinery_agricultural_process O O
+agricultural_machinery,harrow,what is the function of a disc harrow,O O O B-machinery_agricultural_process O O B-machinery_subtype B-machinery_type
+agricultural_machinery,general,what are the types of agricultural machines,O O O B-machinery_subtype O O B-machinery_type
+agricultural_machinery,produce_sorter,is produce sorter essential for cultivation,O O O O O B-machinery_agricultural_process
+agricultural_machinery,chisel_plow,what is the use of chisel plow in cultivation,O O O B-machinery_agricultural_process O O O O B-machinery_agricultural_process
+agricultural_machinery,harrow,how to use the harrow,O O B-machinery_agricultural_process O B-machinery_type
+agricultural_machinery,liquid_manure,what is the quantity needed for liquid manure,O O O B-machinery_general_info O O O O
+agricultural_machinery,general,what are the examples of farm equipment,O O O B-machinery_subtype O O B-machinery_type
+agricultural_machinery,chisel_plow,what is chisel plow,O O O O
+agricultural_machinery,combine,what is the maintenance cost of combine,O O O B-machinery_maintenance_cost B-machinery_price O O
+agricultural_machinery,combine,working of a combine,B-machinery_general_info O O O
+agricultural_machinery,produce_sorter,what is a produce sorter,O O O O O
+agricultural_machinery,harrow,how expensive is harrow,O B-machinery_price O B-machinery_type
+agricultural_machinery,planters,how much maintenance required for planter,O O B-machinery_maintenance_cost O O B-machinery_type
+agricultural_machinery,subsoiler,what is the cost of subsoiler,O O O B-machinery_price O B-machinery_type
+agricultural_machinery,tractors,how much money is needed for maintaining a tractor,O O B-machinery_price O O O B-machinery_maintenance_cost O B-machinery_type
+agricultural_machinery,general,what are the priorities for mechanization,O O O O O B-machinery_type
+agricultural_machinery,manure_spreader,what are the types of manure spreader,O O O B-machinery_subtype O O O
+agricultural_processes,soil_preparation,how much can i buy peat soil for,O O O O B-land_cost B-land_soil_type B-land_soil_type O
+agricultural_processes,storage,what are best suited storage conditions for crops,O O B-agricultural_process_adv O B-agricultural_process_type O O O
+agricultural_processes,manure,which manure is best suited for black soil,O B-agricultural_process_type O B-agricultural_process_adv O O B-land_soil_type B-land_soil_type
+agricultural_processes,storage,can we store different crops together,O O B-agricultural_process_type O O O
+agricultural_processes,manure,is manure cheap,O B-agricultural_process_type B-land_cost
+agricultural_processes,soil_preparation,what are the various soil types,O O O O B-land_soil_type B-agricultural_process_type
+agricultural_processes,irrigation,does my land need to near a well for good irrigation,O O B-land_area B-agricultural_process_adv O O O O O B-agricultural_process_adv B-agricultural_process_type
+agricultural_processes,soil_preparation,what is the duration of ploughing,O O O B-agriculture_process_duration O B-agricultural_process_sub_type
+agricultural_processes,soil_preparation,is soil preparation cheaper,O B-land_soil_type B-agricultural_process_type B-land_cost
+agricultural_processes,harvest,in which season is harvesting done,O O B-agriculture_process_duration O B-agricultural_process_type O
+agricultural_processes,manure,is soil fertility improved by manuring,O B-land_soil_type B_agricultural_process_requirement B-agricultural_process_adv O B-agricultural_process_type
+agricultural_processes,soil_preparation,which month should i prepare soil for growing maize,O B-agriculture_process_duration O O O B-land_soil_type O B-agriculture_process_duration O
+agricultural_processes,sowing,why is sowing important,O O B-agricultural_process_type B-agricultural_process_adv
+agricultural_processes,manure,what is the price of manure,O O O B-land_cost O B-agricultural_process_type
+agricultural_processes,storage,what are the best storage practices,O O O B-agricultural_process_adv B-agricultural_process_type O
+agricultural_processes,sowing,which crop is suitable for transplant sowing of seeds,O O O O O B-agricultural_process_sub_type B-agricultural_process_type O B-agricultural_process_type
+agricultural_processes,sowing,what is the importance of sowing,O O O O O B-agricultural_process_type
+agricultural_processes,manure,what are the advantages of manure,O O O B-agricultural_process_adv O B-agricultural_process_type
+agricultural_processes,manure,does manure have an expiration date,O B-agricultural_process_type O O B-agriculture_process_duration O
+agricultural_processes,soil_preparation,how cheap is peat,O B-land_cost O B-land_soil_type
+agricultural_processes,sowing,what are the kinds of sowing,O O O B-agricultural_process_type O B-agricultural_process_type
+agricultural_processes,soil_preparation,what is red soil,O O B-land_soil_type B-land_soil_type
+agricultural_processes,sowing,what is the initial investment for sowing,O O O O B-land_cost O B-agricultural_process_type
+agricultural_processes,manure,how long does manuring phase last,O B-agriculture_process_duration O B-agricultural_process_type O O
+agricultural_processes,soil_preparation,what is crops can be grown on alluvial soil,O O O O O B-agriculture_process_duration O B-land_soil_type B-land_soil_type
+agricultural_processes,irrigation,how much rainfall is needed for irrigation,O O O O B-agricultural_process_adv O B-agricultural_process_type
+agricultural_processes,irrigation,what are the advantages of surface irrigation systems,O O O B-agricultural_process_adv O O B-agricultural_process_type O
+agricultural_processes,sowing,what is transplant sowing,O O B-agricultural_process_sub_type B-agricultural_process_type
+agricultural_processes,soil_preparation,what are the advantages of levelling for soil preparation,O O O B-agricultural_process_adv O B-agricultural_process_sub_type O B-land_soil_type B-agricultural_process_type
+agricultural_processes,soil_preparation,are there specific steps for soil preparation,O O O B_agricultural_process_requirement O B-land_soil_type B-agricultural_process_type
+agricultural_processes,sowing,what are the advantages of dibbing technique,O O O B-agricultural_process_adv O O B_agricultural_process_requirement
+agricultural_processes,harvest,what is the selling price of harvested crops,O O O O B-land_cost O B-agricultural_process_type O
+agricultural_processes,general,what are the different kinds of processes in agriculture,O O O O B-agricultural_process_type O B-agricultural_process_type O O
+agricultural_processes,sowing,what are the best practices for sowing,O O O B-agricultural_process_adv O O B-agricultural_process_type
+agricultural_processes,storage,how much investment is required to install a pusa bin,O O B-land_cost O B-land_soil_type O O O O O
+agricultural_processes,soil_preparation,what is the process of ploughing,O O O B-agricultural_process_type O B-agricultural_process_sub_type
+agricultural_processes,sowing,how long do sowed seeds take to grow,O B-agriculture_process_duration O B-agricultural_process_type B-agricultural_process_type O O B-agriculture_process_duration
+agricultural_processes,storage,how long can we store grains,O B-agriculture_process_duration O O B-agricultural_process_type O
+agricultural_processes,soil_preparation,what type of soil is best for flowers,O B-agricultural_process_type O B-land_soil_type O B-agricultural_process_adv O O
+agricultural_processes,sowing,can i sow crops in different ways,O O B-agricultural_process_type O O O O
+agricultural_processes,soil_preparation,where can i purchase red soil,O O O B-land_cost B-land_soil_type B-land_soil_type
+agricultural_processes,storage,which crops need additional attention during storage,O O B-agricultural_process_adv O B_agricultural_process_requirement O B-agricultural_process_type
+agricultural_processes,manure,is manuring beneficial,O B-agricultural_process_type B-agricultural_process_adv
+agricultural_processes,storage,how to protect produce during storage,O O B_agricultural_process_requirement B_agricultural_process_output O B-agricultural_process_type
+agricultural_processes,harvest,how to do effective harvesting,O O O B-agricultural_process_disadv B-agricultural_process_type
+agricultural_processes,irrigation,which irrigation technique conserves highest amount of water,O B-agricultural_process_type B_agricultural_process_requirement B-agricultural_process_adv O B-land_cost O B_agricultural_process_requirement
+agricultural_processes,storage,how does silo compare to plow,O O B-agricultural_process_sub_type O O B-agricultural_process_sub_type
+agricultural_processes,storage,how to improve storage conditions in india,O O B-agricultural_process_adv B-agricultural_process_type O O O
+agricultural_processes,irrigation,what is lift irrigation system,O O B-agricultural_process_sub_type B-agricultural_process_type O
+agricultural_processes,sowing,is sowing seeds safe,O B-agricultural_process_type B-agricultural_process_type B-agricultural_process_adv
+agricultural_processes,harvest,is effective harvesting practice profitable,O B-agricultural_process_disadv B-agricultural_process_type O B-land_cost
+agricultural_processes,soil_preparation,what are the disadvantages of soil preparation of red soil,O O O B-agricultural_process_adv O B-land_soil_type B-agricultural_process_type O B-land_soil_type B-land_soil_type
+agricultural_processes,harvest,what is the helpline for harvesting,O O O B-agricultural_process_adv O B-agricultural_process_type
+agricultural_processes,soil_preparation,how is black soil different from red soil,O O B-land_soil_type B-land_soil_type O O B-land_soil_type B-land_soil_type
+agricultural_processes,storage,how much investment is required to install a silo storage,O O B-land_cost O B-land_soil_type O O O B-agricultural_process_sub_type B-agricultural_process_type
+agricultural_processes,storage,is there any specific temperature requirement for storage of grains,O O O O B_agricultural_process_requirement B_agricultural_process_requirement O B-agricultural_process_type O O
+agricultural_processes,sowing,is dropping off the seed behind the plough effective,O O O O B-agricultural_process_type O O B-agricultural_process_sub_type B-agricultural_process_disadv
+agricultural_processes,storage,how to control storage temperature,O O O B-agricultural_process_type B_agricultural_process_requirement
+agricultural_processes,soil_preparation,what are the advantages of soil preparation of red soil,O O O B-agricultural_process_adv O B-land_soil_type B-agricultural_process_type O B-land_soil_type B-land_soil_type
+agricultural_processes,irrigation,how much water is required for irrigating 2 hectares of land,O O B_agricultural_process_requirement O B-land_soil_type O O O B-land_area O B-land_area
+agrochemicals,fungicides,name the components of fungicide,O O B-agrochemical_ingredients O B-agrochemical_type
+agrochemicals,pesticides,explain working of pesticides,O B-agrochemical_usecase O B-agrochemical_type
+agrochemicals,pesticides,lifetime of pesticide,B-agrochemical_shelflife O B-agrochemical_type
+agrochemicals,fertilizers,which chemicals are there in fertilizers,O B-agrochemical_ingredients O O O B-agrochemical_type
+agrochemicals,herbicides,examples of natural herbicide,O O B-agrochemical_usecase B-agrochemical_type
+agrochemicals,pesticides,what quantity of pesticides is required,O B-agrochemical_dosage O B-agrochemical_type O O
+agrochemicals,fertilizers,how does fertilizer work,O O B-agrochemical_type B-agrochemical_usecase
+agrochemicals,pesticides,what are the most harmful chemicals in pesticides,O O O O B-agrochemical_disadv B-agrochemical_ingredients O B-agrochemical_type
+agrochemicals,insecticides,can insecticides be bad for plants,O B-agrochemical_type O B-agrochemical_disadv O O
+agrochemicals,pesticides,what is natural pesticide,O O B-agrochemical_usecase B-agrochemical_type
+agrochemicals,insecticides,what is the most widely used insecticide,O O O O O B-agrochemical_usecase B-agrochemical_type
+agrochemicals,fertilizers,when should fertilizers be applied to plants,O O B-agrochemical_type O O O O
+agrochemicals,fertilizers,how much investment does fertilizer need,O B-agrochemical_dosage B-agrochemical_price O B-agrochemical_type O
+agrochemicals,fertilizers,what is quality control for fertilizers,O O O B-agrochemical_usecase O B-agrochemical_type
+agrochemicals,pesticides,which pesticides is mostly used in india,O B-agrochemical_type O O B-agrochemical_usecase O O
+agrochemicals,fertilizers,what are zinc deficiency symptoms and what fertilizers contain zinc,O O B-agrochemical_ingredients O O O O B-agrochemical_type B-agrochemical_ingredients B-agrochemical_ingredients
+agrochemicals,insecticides,can you use expired insecticide,O O B-agrochemical_usecase O B-agrochemical_type
+agrochemicals,fertilizers,disadvantage of using artificial fertilizer,B-agrochemical_adv O O B-agrochemical_usecase B-agrochemical_type
+agrochemicals,herbicides,name some types of herbicides,O O O O B-agrochemical_type
+agrochemicals,fertilizers,which variety of fertilizer is the best,O B-agrochemical_ingredients O B-agrochemical_type O O O
+agrochemicals,fertilizers,what is fertilizer used for,O O B-agrochemical_type B-agrochemical_usecase O
+agrochemicals,fertilizers,is fertilizer expensive,O B-agrochemical_type B-agrochemical_price
+agrochemicals,pesticides,which is most common element in pesticide,O O O O B-agrochemical_ingredients O B-agrochemical_type
+agrochemicals,fungicides,can we sell fungicides below market price,O O O B-agrochemical_type O O B-agrochemical_price
+agrochemicals,pesticides,how much do pesticides cost,O B-agrochemical_dosage O B-agrochemical_type B-agrochemical_price
+agrochemicals,pesticides,how much does pesticide cost per acre,O B-agrochemical_dosage O B-agrochemical_type B-agrochemical_price O O
+agrochemicals,herbicides,how much do herbicides cost,O B-agrochemical_dosage O B-agrochemical_type B-agrochemical_price
+agrochemicals,pesticides,which crops has highest consumption of pesticides,O B-agrochemical_usecase O O O O B-agrochemical_type
+agrochemicals,herbicides,what is the cost of herbicide,O O O B-agrochemical_price O B-agrochemical_type
+agrochemicals,pesticides,where to buy cheap pesticide,O O B-agrochemical_price B-agrochemical_price B-agrochemical_type
+agrochemicals,fertilizers,best formula for fertilizer,O B-agrochemical_ingredients O B-agrochemical_type
+agrochemicals,herbicides,how are herbicides used in agriculture,O O B-agrochemical_type B-agrochemical_usecase O O
+agrochemicals,pesticides,can pesticides cause harm,O B-agrochemical_type B-agrochemical_usecase B-agrochemical_disadv
+agrochemicals,insecticides,what are the example of organic insecticide,O O O O O B-agrochemical_usecase B-agrochemical_type
+agrochemicals,pesticides,do pesticides have chemicals,O B-agrochemical_type O B-agrochemical_ingredients
+agrochemicals,herbicides,explain herbicides,O B-agrochemical_type
+agrochemicals,fertilizers,which fertilizer has potassium,O B-agrochemical_type O B-agrochemical_ingredients
+agrochemicals,pesticides,best combination of pesticides,O B-agrochemical_ingredients O B-agrochemical_type
+agrochemicals,pesticides,what is the shelf life of pesticides,O O O O B-agrochemical_shelflife O B-agrochemical_type
+agrochemicals,fungicides,where are fungicides used,O O B-agrochemical_type B-agrochemical_usecase
+agrochemicals,pesticides,how long does pesticide last,O O O B-agrochemical_type B-agrochemical_shelflife
+agrochemicals,pesticides,how to purchase cheap pesticides,O O B-agrochemical_price B-agrochemical_price B-agrochemical_type
+agrochemicals,fertilizers,how is fertilizer applied,O O B-agrochemical_type O
+agrochemicals,fertilizers,what is a fertilizer,O O O B-agrochemical_type
+agrochemicals,fertilizers,what is the value of fertilizer,O O O B-agrochemical_price O B-agrochemical_type
+agrochemicals,pesticides,are organic pesticides cheap,O B-agrochemical_usecase B-agrochemical_type B-agrochemical_price
+agrochemicals,fertilizers,amount of fertilizer required,B-agrochemical_price O B-agrochemical_type O
+agrochemicals,fungicides,where to get cheap fungicides,O O O B-agrochemical_price B-agrochemical_type
+agrochemicals,fertilizers,is fertilizer good for the soil,O B-agrochemical_type B-agrochemical_adv O O O
+agrochemicals,fertilizers,are chemical fertilizers harmful for crops if used in excess quantity or in wrong combination of nutrients,O B-agrochemical_ingredients B-agrochemical_type B-agrochemical_disadv O B-agrochemical_usecase O B-agrochemical_usecase O O B-agrochemical_dosage O O O B-agrochemical_ingredients O O
+agrochemicals,insecticides,how do insecticides protect crops,O O B-agrochemical_type B-agrochemical_usecase B-agrochemical_usecase
+agrochemicals,pesticides,are pesticides used to control pests,O B-agrochemical_type B-agrochemical_usecase O B-agrochemical_usecase B-agrochemical_type
+agrochemicals,herbicides,what is herbicide used for,O O B-agrochemical_type B-agrochemical_usecase O
+agrochemicals,pesticides,why is the price of roundup pesticide so high,O O O B-agrochemical_price O O B-agrochemical_type O O
+agrochemicals,fungicides,can fungicides be bad,O B-agrochemical_type O B-agrochemical_disadv
+agrochemicals,fertilizers,what elements should not be used while composting manure,O B-agrochemical_ingredients O O O B-agrochemical_usecase O B-agrochemical_ingredients O
+agrochemicals,fungicides,where are fungicides used in crop production,O O B-agrochemical_type B-agrochemical_usecase O B-agrochemical_usecase O
+agrochemicals,fungicides,what is the chemical composition of fungicides,O O O B-agrochemical_ingredients B-agrochemical_ingredients O B-agrochemical_type
+agrochemicals,insecticides,what is the main ingredient in insecticide,O O O O B-agrochemical_ingredients O B-agrochemical_type
+agrochemicals,herbicides,what is the amount of herbicide used at one time,O O O B-agrochemical_price O B-agrochemical_type B-agrochemical_usecase O O B-agrochemical_shelflife
+alternative_farming_methods,horticulture,how and when are carrots harvested,O O O O B-method-subtype B-method_yield
+alternative_farming_methods,organic farming,what is the lifespan of organic carrot,O O O B-method_duration O B-method_type B-method-subtype
+alternative_farming_methods,horticulture,where can i get information regarding horticulture,O O O O B-method_helpline O B-method_type
+alternative_farming_methods,viticulture,is viticulture a viable source of income,O B-method_type O O O O O
+alternative_farming_methods,horticulture,what should be the frequency of fertilizer application for potatoes,O O O O O O B-method_requirements O O B-method-subtype
+alternative_farming_methods,organic farming,is the harvest for organic farming good,O O B-method_yield O B-method_type O B-method_adv
+alternative_farming_methods,horticulture,what is the best climate to grow apples,O O O B-method_adv B-method_requirements O B-method_duration O
+alternative_farming_methods,viticulture,how to identify suitable land for grape farming,O O O O B-method_requirements O B-method_type O
+alternative_farming_methods,floriculture,is there anyone i can contact to aid me in floriculture,O O O O O B-method_helpline O O O O B-method_type
+alternative_farming_methods,viticulture,are cherries and grapes different,O O O B-method_type O
+alternative_farming_methods,viticulture,is winegrowing an alternate name for viticulture,O B-method_duration O O O O B-method_type
+alternative_farming_methods,horticulture,are fruits easy to grow,O B-method-subtype O O B-method_duration
+alternative_farming_methods,horticulture,how often should a vegetable garden be watered,O O O O B-method-subtype O O B-method_requirements
+alternative_farming_methods,viticulture,is viticulture an alternative farming method,O B-method_type O O O O
+alternative_farming_methods,horticulture,what vegetables cannot be planted together,O B-method-subtype O O O O
+alternative_farming_methods,horticulture,what are the disease and pests on carrot plants,O O O B-method_requirements O B-method_requirements O B-method-subtype O
+alternative_farming_methods,organic farming,what are the benefits of organic farming,O O O B-method_adv O B-method_type O
+alternative_farming_methods,horticulture,does horticulture require special tools,O B-method_type B-method_requirements O O
+alternative_farming_methods,floriculture,can floriculture be harmful,O B-method_type O B-method_disadv
+alternative_farming_methods,horticulture,how long does it take for potatoes to sprout,O B-method_duration O O O O B-method-subtype O O
+alternative_farming_methods,horticulture,how should vegetable crops be fertilized,O O B-method-subtype O O B-method_requirements
+alternative_farming_methods,viticulture,is viticulture cheap,O B-method_type O
+alternative_farming_methods,organic farming,what is the cost to purchase organic farming tools,O O O B-method_investment_cost O B-method_investment_cost B-method_type O O
+alternative_farming_methods,organic farming,which vegetables and fruits can be grown using organic farming,O B-method-subtype O B-method-subtype O O B-method_duration O B-method_type O
+alternative_farming_methods,floriculture,what are the types of flowers grown for floriculture,O O O O O B-method_type B-method_duration O B-method_type
+alternative_farming_methods,horticulture,what vegetables to plant and when or what months can one plant vegetables,O B-method-subtype O O O O O O B-method_duration O O O B-method-subtype
+alternative_farming_methods,floriculture,will i be able to grow flowers in my garden,O O O O O B-method_duration B-method_type O O O
+alternative_farming_methods,horticulture,how many types of horticulture are there,O O O O B-method_type O O
+alternative_farming_methods,organic farming,what is needed for organic farming,O O B-method_adv O B-method_type O
+alternative_farming_methods,viticulture,what are the soil conditions required for growing grapes,O O O B-method_requirements O B-method_requirements O B-method_duration B-method_type
+alternative_farming_methods,floriculture,what are the requirements for successful floriculture business,O O O B-method_requirements O O B-method_type O
+alternative_farming_methods,floriculture,what is the area in floriculture in india,O O O B-method_requirements O B-method_type O O
+alternative_farming_methods,horticulture,is horticulture a cost effective farming method,O B-method_type O B-method_investment_cost B-method_disadv O O
+alternative_farming_methods,floriculture,how to do weed control for marigold plants,O O O B-method_requirements O O B-method-subtype O
+alternative_farming_methods,organic farming,what is organic agriculture,O O B-method_type B-method_type
+alternative_farming_methods,floriculture,what is the soil requirement for different types of floriculture,O O O B-method_requirements B-method_requirements O O O O B-method_type
+alternative_farming_methods,organic farming,is there a website to buy organic farming tools,O O O B-method_helpline O B-method_investment_cost B-method_type O O
+alternative_farming_methods,floriculture,is it worth investing in floriculture,O O O O O B-method_type
+alternative_farming_methods,floriculture,what is marigold floriculture,O O B-method-subtype B-method_type
+alternative_farming_methods,floriculture,what are the soil conditions required for growing flowers,O O O B-method_requirements O B-method_requirements O B-method_duration B-method_type
+alternative_farming_methods,viticulture,how to select location for viticulture,O O O O O B-method_type
+alternative_farming_methods,floriculture,is the equipment required for floriculture expensive,O O O B-method_requirements O B-method_type O
+alternative_farming_methods,horticulture,what is horticultures importance,O O B-method_type O
+alternative_farming_methods,horticulture,can horticulture be done in 1 hectare of land,O B-method_type O O O O O O B-method_requirements
+alternative_farming_methods,horticulture,what plants are grown in rotation to potato plants,O O O B-method_duration O O O B-method-subtype O
+alternative_farming_methods,horticulture,what are the popular vegetables grown in horticulture,O O O O B-method-subtype B-method_duration O B-method_type
+alternative_farming_methods,organic farming,what are some of the organic pesticides used for farming,O O O O O B-method_type B-method_requirements B-method_use O O
+alternative_farming_methods,organic farming,how do organic farms manage fertility,O O B-method_type O B-method_use B-method_requirements
+alternative_farming_methods,horticulture,what vegetables are harder to grow,O B-method-subtype O O O B-method_duration
+alternative_farming_methods,floriculture,where to get information about floriculture,O O O B-method_helpline O B-method_type
+alternative_farming_methods,horticulture,what type of soil is required for growing carrots,O O O B-method_requirements O B-method_requirements O B-method_duration B-method-subtype
+alternative_farming_methods,horticulture,what is vegetable production or vegetable farming,O O B-method-subtype B-method_use O B-method-subtype O
+alternative_farming_methods,horticulture,whom to contact for horticulture starting,O O B-method_helpline O B-method_type O
+alternative_farming_methods,horticulture,how many types of vegetables are there in the world,O O O O B-method-subtype O O O O O
+alternative_farming_methods,floriculture,what is the soil fertility required for flower farming,O O O B-method_requirements B-method_requirements B-method_requirements O B-method_type O
+alternative_farming_methods,viticulture,what are the types of grapes in viticulture,O O O O O B-method_type O B-method_type
+alternative_farming_methods,horticulture,what are the different type of nuts in india,O O O O O O O O O
+alternative_farming_methods,horticulture,how long does it take for vegetables to grow,O B-method_duration O O O O B-method-subtype O B-method_duration
+alternative_farming_methods,viticulture,does viticulture require special tools,O B-method_type B-method_requirements O O
+alternative_farming_methods,horticulture,can vegetables be raised for seed production,O B-method-subtype O O O B-method_requirements B-method_use
+animal_husbandry,sericulture,how much do silkworms cost,O O O B-animal_type B-animal_cost_price
+animal_husbandry,alligator_farming,how long do pigs take to reproduce,O O O B-animal_type O O B-animal_reproduction
+animal_husbandry,poultry_farming,what is the offspring of a hen called,O O O B-animal_reproduction O O B-animal_type O
+animal_husbandry,pig_farming,is pig farming cheap or expensive,O B-animal_type O B-animal_cost_price O B-animal_cost_price
+animal_husbandry,dairy_farming,is goat milk expensive,O B-animal_type B-animal_byproduct B-animal_cost_price
+animal_husbandry,fish_farming,is fish offsprings easy to make,O B-animal_type B-animal_reproduction O O O
+animal_husbandry,sericulture,what do silkworms need for nutrition,O O B-animal_type O O B-animal_diet
+animal_husbandry,poultry_farming,what do hens eat,O O B-animal_type B-animal_diet
+animal_husbandry,dairy_farming,to cows give milk throughout their life,O B-animal_type B-animal_byproduct B-animal_byproduct O O B-animal_lifespan
+animal_husbandry,pig_farming,why is pig farming bad,O O B-animal_type O O
+animal_husbandry,alligator_farming,what is the difference between alligator farming and fish farming,O O O O O B-animal_type O O B-animal_type O
+animal_husbandry,pig_farming,how long do pigs live for,O O O B-animal_type O O
+animal_husbandry,dairy_farming,what is the price of maintaining a buffalo,O O O B-animal_selling_price O O O B-animal_type
+animal_husbandry,sericulture,which is the best quality silk,O O O O O B-animal_byproduct
+animal_husbandry,sericulture,what is the price of silk sarees,O O O B-animal_selling_price O B-animal_byproduct O
+animal_husbandry,alligator_farming,is alligator farming easy to practice,O B-animal_type O O O O
+animal_husbandry,fish_farming,do fish give any products,O B-animal_type B-animal_byproduct O B-animal_byproduct
+animal_husbandry,pig_farming,what do pigs give,O O B-animal_type B-animal_byproduct
+animal_husbandry,fish_farming,what is the best way to farm fish,O O O O O O O B-animal_type
+animal_husbandry,poultry_farming,are birds easy to reproduce,O O O O B-animal_reproduction
+animal_husbandry,pig_farming,how much does a pig weigh,O O O O B-animal_type B-animal_weight
+animal_husbandry,pig_farming,what is the importance of pig farming,O O O O O B-animal_type O
+animal_husbandry,pig_farming,how do pigs reproduce,O O B-animal_type B-animal_reproduction
+animal_husbandry,dairy_farming,do goats get sick,O B-animal_type O B-animal_diseases
+animal_husbandry,poultry_farming,how much does a turkey weigh,O O O O B-animal_type B-animal_weight
+animal_husbandry,bee_keeping,what is market price of bees,O O B-animal_selling_price B-animal_selling_price O B-animal_type
+animal_husbandry,pig_farming,what is the selling price of a pig,O O O B-animal_selling_price B-animal_selling_price O O B-animal_type
+animal_husbandry,fish_farming,is fish farming a seasonal type of farming,O B-animal_type O O O O O O
+animal_husbandry,pig_farming,where is the best place to find information about pigs,O O O O O O O O O B-animal_type
+animal_husbandry,pig_farming,what is the lifespan of a pig,O O O B-animal_lifespan O O B-animal_type
+animal_husbandry,sericulture,how does a silkworm give silk,O O O B-animal_type B-animal_byproduct B-animal_byproduct
+animal_husbandry,alligator_farming,where can i buy alligators from,O O O O B-animal_type O
+animal_husbandry,alligator_farming,what is alligator farming,O O B-animal_type O
+animal_husbandry,bee_keeping,what is bee farming,O O B-animal_type O
+animal_husbandry,sericulture,is sericulture too expensive,O O O B-animal_cost_price
+animal_husbandry,fish_farming,what are the benefits of fish farming,O O O O O B-animal_type O
+animal_husbandry,poultry_farming,which hen gives the best chicken meat,O B-animal_type B-animal_byproduct O O B-animal_type B-animal_diet
+animal_husbandry,alligator_farming,what do alligators eat,O O B-animal_type B-animal_diet
+animal_husbandry,alligator_farming,is alligator skin very costly,O B-animal_type B-animal_byproduct O B-animal_cost_price
+animal_husbandry,dairy_farming,what is the difference between cheese and butter,O O O O O B-animal_byproduct O O
+animal_husbandry,bee_keeping,are honey combs edible,O B-animal_byproduct O O
+animal_husbandry,pig_farming,is pig farming better than sheep farming,O B-animal_type O O O B-animal_type O
+animal_husbandry,dairy_farming,how much investment does a cow need,O O O O O B-animal_type O
+animal_husbandry,alligator_farming,are alligators found in india,O B-animal_type O O O
+animal_husbandry,sheep_farming,which sheep's wool is the best,O B-animal_type B-animal_byproduct O O O
+animal_husbandry,dairy_farming,is clarified butter ghee,O O O O
+animal_husbandry,fish_farming,any contacts for fish farming,O O O B-animal_type O
+animal_husbandry,poultry_farming,what is the cost of keeping hens,O O O B-animal_cost_price O O B-animal_type
+animal_husbandry,pig_farming,is pig farming costly,O B-animal_type O B-animal_cost_price
+animal_husbandry,pig_farming,how to maintain hygiene of a pig,O O O B-animal_maintenance O O B-animal_type
+animal_husbandry,poultry_farming,why is poultry eaten,O O O B-animal_diet
+animal_husbandry,dairy_farming,what is the best type of milk produce,O O O O O O B-animal_byproduct O
+animal_husbandry,alligator_farming,what body parts of alligators are sold,O O O O B-animal_type O O
+animal_husbandry,poultry_farming,how much investment do turkies require,O O O O B-animal_type O
+animal_husbandry,fish_farming,is it costly to go for fish farming,O O B-animal_cost_price O O O B-animal_type O
+animal_husbandry,poultry_farming,what are the weather conditions required to keep birds,O O O B-animal_diet B-animal_diseases O O O O
+animal_husbandry,pig_farming,is pork from pig,O B-animal_byproduct O B-animal_type
+animal_husbandry,pig_farming,how to make pigs breed,O O O B-animal_type B-animal_reproduction
+animal_husbandry,fish_farming,what is the diet of fish,O O O B-animal_diet O B-animal_type
+animal_husbandry,dairy_farming,how much milk does goat give,O O B-animal_byproduct O B-animal_type B-animal_byproduct
+crop_information,dry_fruits,what is the average dry fruit farm yield,O O O O O B-crop_name O O
+crop_information,vegetables,is there a website about vegetables,O O O O O B-crop_name
+crop_information,spices,which spices grow the fastest,O O B-crop_growth_time O O
+crop_information,vegetables,how much potato can be produced by a plant,O O B-crop_name O O O O O O
+crop_information,vegetables,why are vegetables so expensive,O O B-crop_name O B-crop_cost_price
+crop_information,pulses,what pulse is liked by most people,O O O O O O O
+crop_information,fruits,is rain important to grow fruits,O B-crop_rainfall O O B-crop_growth_time B-crop_name
+crop_information,grains,how much investment to start growing wheat,O O B-crop_cost_price O O B-crop_growth_time B-crop_name
+crop_information,dry_fruits,is growing dry fruits good for profit,O B-crop_growth_time O B-crop_name O O O
+crop_information,vegetables,what is the span of carrot farming,O O O B-crop_growth_time O B-crop_name O
+crop_information,grains,can babies consume grains,O O B-crop_selling_price B-crop_rainfall
+crop_information,grains,do millets need dry weather to grow,O B-crop_name O O B-crop_weather O B-crop_growth_time
+crop_information,pulses,which is the best season to grow moong,O O O O O O B-crop_growth_time O
+crop_information,fruits,how much does it cost to farm mangoes,O O O O B-crop_cost_price O O B-crop_name
+crop_information,spices,how quickly can i sell spices,O O O O B-crop_selling_price O
+crop_information,pulses,which soil is best to grow pulses,O B-crop_soil_type O O O B-crop_growth_time O
+crop_information,pulses,how much yield can i get from growing pulses,O O O O O O O B-crop_growth_time O
+crop_information,pulses,can pulses be grown in fields,O O O B-crop_growth_time O O
+crop_information,fruits,what are the different varieties of mangoes,O O O O O O B-crop_name
+crop_information,vegetables,how much investment to be done to grow vegetables,O O B-crop_cost_price O O O O B-crop_growth_time B-crop_name
+crop_information,grains,are grains important to the environment,O B-crop_rainfall O O O O
+crop_information,pulses,what pulses can be grown in 1 hectare of land,O O O O B-crop_growth_time O O O O O
+crop_information,fruits,where can i get information about fruits,O O O O O O B-crop_name
+crop_information,dry_fruits,what is the cost price of growing dry fruits,O O O B-crop_cost_price B-crop_name O B-crop_growth_time O B-crop_name
+crop_information,grains,which state consumes most wheat,O O B-crop_selling_price O B-crop_name
+crop_information,vegetables,is growing onions good for profit,O B-crop_growth_time B-crop_name O O O
+crop_information,dry_fruits,which dry fruits can be grown in september,O O B-crop_name O O B-crop_growth_time O O
+crop_information,pulses,what is the shelflife of pulses,O O O B-crop_growth_time O O
+crop_information,dry_fruits,are dry fruits healthy,O O B-crop_name O
+crop_information,fruits,can mangoes grow in humid weather,O B-crop_name B-crop_growth_time O B-crop_humidity B-crop_weather
+crop_information,pulses,in which soil is toor dal usually grown,O O B-crop_soil_type O O O O B-crop_growth_time
+crop_information,oil_seeds,can oil seeds be grown without special tools,O O O O B-crop_growth_time O O O
+crop_information,fruits,do people like fruits,O O O B-crop_name
+crop_information,pulses,does january have a special pulse,O O O O O O
+crop_information,grains,what are the online portals to sell grains,O O O O O O B-crop_selling_price B-crop_rainfall
+crop_information,oil_seeds,what is the tastiest oil seed,O O O O O O
+crop_information,fruits,how many months do bananas take to grow,O O O O B-crop_name O O B-crop_growth_time
+crop_information,pulses,in what temperature does toor grow best,O O B-crop_temperature O O B-crop_growth_time O
+crop_information,grains,how much yield from one acre of rice land,O O O O O O O B-crop_name O
+crop_information,grains,can wheat be grown only in summer,O B-crop_name O B-crop_growth_time O O O
+crop_information,dry_fruits,which is the best temperature for walnuts,O O O O B-crop_temperature O B-crop_name
+crop_information,oil_seeds,which soil is best to grow oil seeds,O B-crop_soil_type O O O B-crop_growth_time O O
+crop_information,pulses,can pulses be grown in the garden,O O O B-crop_growth_time O O O
+crop_information,vegetables,when is the best time to harvest vegetables,O O O O B-crop_growth_time O O B-crop_name
+crop_information,grains,when is the best time to harvest grains,O O O O B-crop_growth_time O O B-crop_rainfall
+crop_information,fruits,why are my orange farms not yielding enough,O O O O O O O O
+crop_information,vegetables,are potatoes good for farming,O B-crop_name O O O
+crop_information,dry_fruits,is red soil suitable for walnut cultivation,O B-crop_soil_type B-crop_soil_type O O B-crop_name O
+crop_information,grains,where can i get information about grains,O O O O O O B-crop_rainfall
+crop_information,fruits,which fruits can be grown in september,O B-crop_name O O B-crop_growth_time O O
+crop_information,pulses,is toor dal easy to farm,O O O O O O
+crop_information,grains,which grains can be grown in summer,O B-crop_rainfall O O B-crop_growth_time O O
+crop_information,vegetables,how much yield do beans give for each acre of land,O O O O B-crop_name O O O O O O
+crop_information,dry_fruits,what are the health benefits of dry fruits,O O O O O O O B-crop_name
+crop_information,grains,what diseases can grains get,O O O B-crop_rainfall O
+crop_information,vegetables,how quickly can i sell vegetables,O O O O B-crop_selling_price B-crop_name
+crop_information,oil_seeds,what all oil seeds are grown in india,O O O O O B-crop_growth_time O O
+crop_information,grains,is growing millets expensive,O B-crop_growth_time B-crop_name B-crop_cost_price
+crop_information,fruits,why are fruits so expensive,O O B-crop_name O B-crop_cost_price
+crop_information,vegetables,which vegetables can be grown in september,O B-crop_name O O B-crop_growth_time O O
